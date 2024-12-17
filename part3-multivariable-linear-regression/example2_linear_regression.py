@@ -12,11 +12,13 @@ from sklearn.model_selection import train_test_split
 data = pd.read_csv("part3-multivariable-linear-regression/antelope_data.csv")
 x = data[["Adult Population", "Annual Precipitation", "Winter Severity"]].values
 y = data["Fawn"].values
+print(x)
 
 
 # separates the data into training and testing sets
 xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size = .2)
-
+print(xtrain)
+print(xtest)
 # # reshape the xtrain data into a 2D array
 # xtrain = xtrain.reshape(-1, 1)
 
