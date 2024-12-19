@@ -34,4 +34,4 @@ for i in range(len(xtst)):
     else:
         Gender="Female"
     if ytst[i]!=y[i]:
-        print(f"Gender:{Gender} Salary:{int(x[i][1])} Age:{int(x[i][0])} Purchased(predicted):{y[i]} Purchased(real):{ytst[i]}")
+        print(f"Gender:{x[i][2]} Salary:{int(x[i][1])} Age:{int(x[i][0])} Purchased(predicted):{y[i]} Purchased(real):{ytst[i]}")

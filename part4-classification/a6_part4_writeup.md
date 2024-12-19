@@ -18,4 +18,4 @@ Most errors were in the middle of the age range.
 
 4. Would a 34 year old Female who makes 56000 a year buy an SUV according to the model? Remember to scale the data before running it through the model.
 
-According to the modle, no, she will not.
+According to the model, no, she will not.
