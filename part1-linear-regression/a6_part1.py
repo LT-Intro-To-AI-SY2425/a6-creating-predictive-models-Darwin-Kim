@@ -23,7 +23,7 @@ r_squared = model.score(x, y)
 equation = coef*x + intcpt
 # Print out the linear equation and r squared value
 print(f"Equation: y = {coef}x + {intcpt} | r^2: {r_squared}")
-# Predict the the blood pressure of someone who is 43 years old.
+# Predict the the blood pressure of someone who is 42 years old.
 # Print out the prediction
 x_predict=42
 prediction = model.predict([[x_predict]])
